@@ -9,6 +9,9 @@
 	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">  
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<link href="../resources/css/my_style.css" rel="stylesheet">
   </head>
   <body>
@@ -48,166 +51,167 @@
 				-->
 				<div class="card">
 				  <img class="card-img-top" src="../resources/img/temp_image.svg" alt="An image of a tree taken by Brian Green & listed on Wikipedia" height="120px" width="90px">
-				  <div class="card-body">
-					<div class="dropdown">
-					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown button
-					  </button>
-					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">A. Fontenot</a>
-						<a class="dropdown-item" href="#">J. Mangham</a>
-						<a class="dropdown-item" href="#">L. Shenault Jr.</a>
-					  </div>
+					<div class="card-body">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown button
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">A. Fontenot</a>
+								<a class="dropdown-item" href="#">J. Mangham</a>
+								<a class="dropdown-item" href="#">L. Shenault Jr.</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-8">
-				<!-- 
-					Todo: This section will hold a table with a temp player's information
+			<!-- 
+				Todo: This section will hold a table with a temp player's information
+				
+				|  Year                |  Junior                  |
+				|  Major               |  History                 |
+				|  Games Played        |  32                      |
+				|  Passing Yards: 855  |  Avg. Passing Yards: 26  |
+				|  Rushing Yards: 378  |  Avg. Rushing Yards: 12  |
+				|  Receiving Yards: 57 |  Avg. Receiving Yards: 2 |
+			-->
+			 <div class="col-6">
+				 <table class="table">
+					  <tr>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td>Year</td>
+						<td>Freshman</td>
+					  </tr>
+					  <tr>
+						<td>Major</td>
+						<td>History</td>
+					  </tr>
+					  <tr>
+						<td>Games Played</td>
+						<td>32</td>
+					  </tr>
+					  <tr>
+						<td>Passing Yards</td>
+						<td>855</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Passing Yards</td>
+						<td>26</td>
+					  </tr>
+					  <tr>
+						<td>Rushing Yards</td>
+						<td>378</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Rushing Yards</td>
+							<td>12</td>
+					  </tr>
+				  <tr>
+						<td>Recieving Yards</td>
+						<td>57</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Recieving Yards</td>
+						<td>2</td>
+						  </tr>
+					</table> 
+					<!--<table style="width:100%">
+					  <tr>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td>Year</td>
+						<td>Sophomore</td>
+					  </tr>
+					  <tr>
+						<td>Major</td>
+						<td>History</td>
+					  </tr>
+					  <tr>
+						<td>Games Played</td>
+						<td>32</td>
+					  </tr>
+					  <tr>
+						<td>Passing Yards</td>
+						<td>855</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Passing Yards</td>
+						<td>26</td>
+					  </tr>
+					  <tr>
+						<td>Rushing Yards</td>
+						<td>378</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Rushing Yards</td>
+						<td>12</td>
+					  </tr>
+						  <tr>
+						<td>Recieving Yards</td>
+					<td>57</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Recieving Yards</td>
+						<td>2</td>
+					  </tr>
+					</table> -->
 					
-					|  Year                |  Junior                  |
-					|  Major               |  History                 |
-					|  Games Played        |  32                      |
-					|  Passing Yards: 855  |  Avg. Passing Yards: 26  |
-					|  Rushing Yards: 378  |  Avg. Rushing Yards: 12  |
-					|  Receiving Yards: 57 |  Avg. Receiving Yards: 2 |
-				-->
-				 <div class="container">
-					 <table style="width:100%">
-						  <tr>
-							<td></td>
-							<td></td>
-						  </tr>
-						  <tr>
-							<td>Year</td>
-							<td>Freshman</td>
-						  </tr>
-						  <tr>
-							<td>Major</td>
-							<td>History</td>
-						  </tr>
-						  <tr>
-							<td>Games Played</td>
-							<td>32</td>
-						  </tr>
-						  <tr>
-							<td>Passing Yards</td>
-							<td>855</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Passing Yards</td>
-							<td>26</td>
-						  </tr>
-						  <tr>
-							<td>Rushing Yards</td>
-							<td>378</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Rushing Yards</td>
-							<td>12</td>
-						  </tr>
-						  <tr>
-							<td>Recieving Yards</td>
-							<td>57</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Recieving Yards</td>
-							<td>2</td>
-						  </tr>
-						</table> 
-						<!--<table style="width:100%">
-						  <tr>
-							<td></td>
-							<td></td>
-						  </tr>
-						  <tr>
-							<td>Year</td>
-							<td>Sophomore</td>
-						  </tr>
-						  <tr>
-							<td>Major</td>
-							<td>History</td>
-						  </tr>
-						  <tr>
-							<td>Games Played</td>
-							<td>32</td>
-						  </tr>
-						  <tr>
-							<td>Passing Yards</td>
-							<td>855</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Passing Yards</td>
-							<td>26</td>
-						  </tr>
-						  <tr>
-							<td>Rushing Yards</td>
-							<td>378</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Rushing Yards</td>
-							<td>12</td>
-						  </tr>
-						  <tr>
-							<td>Recieving Yards</td>
-							<td>57</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Recieving Yards</td>
-							<td>2</td>
-						  </tr>
-						</table> -->
-						
-						<!--<table style="width:100%">
-						  <tr>
-							<td></td>
-							<td></td>
-						  </tr>
-						  <tr>
-							<td>Year</td>
-							<td>Junior</td>
-						  </tr>
-						  <tr>
-							<td>Major</td>
-							<td>History</td>
-						  </tr>
-						  <tr>
-							<td>Games Played</td>
-							<td>32</td>
-						  </tr>
-						  <tr>
-							<td>Passing Yards</td>
-							<td>855</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Passing Yards</td>
-							<td>26</td>
-						  </tr>
-						  <tr>
-							<td>Rushing Yards</td>
-							<td>378</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Rushing Yards</td>
-							<td>12</td>
-						  </tr>
-						  <tr>
-							<td>Recieving Yards</td>
-							<td>57</td>
-						  </tr>
-						  <tr>
-							<td>Avg. Recieving Yards</td>
-							<td>2</td>
-						  </tr>
-						</table>-->
-					</div>
-			</div>
+					<!--<table style="width:100%">
+					  <tr>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td>Year</td>
+						<td>Junior</td>
+					  </tr>
+					  <tr>
+						<td>Major</td>
+						<td>History</td>
+					  </tr>
+					  <tr>
+						<td>Games Played</td>
+						<td>32</td>
+					  </tr>
+					  <tr>
+						<td>Passing Yards</td>
+						<td>855</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Passing Yards</td>
+						<td>26</td>
+					  </tr>
+					  <tr>
+						<td>Rushing Yards</td>
+						<td>378</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Rushing Yards</td>
+						<td>12</td>
+					  </tr>
+					  <tr>
+						<td>Recieving Yards</td>
+						<td>57</td>
+					  </tr>
+					  <tr>
+						<td>Avg. Recieving Yards</td>
+						<td>2</td>
+					  </tr>
+					</table>-->
+				</div>
 		</div>
-		
 	</div>
-  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+
+<!--text here -->
